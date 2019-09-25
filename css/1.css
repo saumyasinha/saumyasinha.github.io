@@ -1,5 +1,4 @@
 /* CSS Document */
-​
 body {
 	background-color:#fff;
 	background-image:url(../images/backgrounds/body.jpg);
@@ -10,21 +9,21 @@ body {
 	color:#777;
 	margin:0;
 }
-​
+
 * {
 	padding:0;
 	margin:0
 }
-​
+
 #container {
 	width:970px;
 	margin:0 auto 0 auto;
 }
-​
+
 #header {
 	height:69px;
 }
-​
+
 #header h1 {
 	font-family:Century Gothic, "Trebuchet MS", Tahoma, Verdana;
 	font-size:250%;
@@ -50,21 +49,21 @@ body {
 	background-image:url(../images/backgrounds/sidebarbottom.jpg);
 	height:53px;
 }
-​
+
 #nav {
 	margin:0 20px 0 0 !important;
 	margin:0 10px 0 0;
 	padding:0;
 	float:right;
 }
-​
+
 #nav li {
 	margin:0;
 	padding:0;
 	list-style:none;
 	float:left;
 }
-​
+
 #nav li a {
 	display:block;
 	padding:5px 10px 14px 10px;
@@ -73,7 +72,7 @@ body {
 	text-decoration:none;
 	font-weight:bold;
 }
-​
+
 #nav li a:hover, .active {
 	background-image:url(../images/backgrounds/menu_a_hover.gif);
 	background-position:bottom;
@@ -83,7 +82,7 @@ body {
 .clear {
 	clear:both;
 }
-​
+
 #sidebar {
 	width:210px;
 	background-color:#fff;
@@ -91,19 +90,19 @@ body {
 	float:left;
 	margin:-20px 0 0 0;
 }
-​
+
 #content {
 	margin:0 0 0 270px;
 	padding:30px 30px 20px 20px;
 }
-​
+
 #content h1 {
 	font-family:"Trebuchet MS", Tahoma, Verdana;
 	font-size:24px;
 	text-transform:uppercase;
 	letter-spacing:1px;
 	margin:10px 0 20px 0;
-	color:#BFEF01;
+	color: #0e8fef;
 }
 #content h2 {
 	font-size:16px;
@@ -111,7 +110,7 @@ body {
 	font-family:"Trebuchet MS", Tahoma, Verdana;
 	margin:10px;
 }
-​
+​,
 #content p {
 	line-height:20px;
 	word-spacing:2px;
@@ -127,11 +126,16 @@ body {
 #content li {
 	margin:10px 0 10px 0;
 	padding:0 0 10px 15px;
-	list-style:none;
+	/*color: #0e8fef;*/
+	list-style-type: disc;
 	border-bottom:1px solid #eee;
-	background-image:url(../images/backgrounds/li.gif);
-	background-position:top left;
-	background-repeat:no-repeat;
+	/*background-image:url(../images/backgrounds/li.gif);*/
+	/*background-position:top left;*/
+	/*background-repeat:no-repeat;*/
+}
+ul li span {
+	/* Text color */
+	color: black;
 }
 #content #sideblock {
 	width:180px;
@@ -140,7 +144,6 @@ body {
 	float:right;
 	font-size:90%;
 	margin:0 0 0 20px;
-​
 }
 .sidebarfooter {
 	background-color:#eee;
@@ -236,7 +239,7 @@ a:hover {
 ​
 #footer {
 	padding:20px;
-	border-top:2px solid #ccff00;
+	border-top:2px solid #0e8fef;
 	color:#ccc;
 	text-align:center;
 }
