@@ -1,25 +1,30 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am a 4th year PhD student in Computer Science at the University of Colorado, Boulder(CU). 
+I work with [Prof Claire Monteleoni](https://www.colorado.edu/faculty/claire-monteleoni/) in the 
+[Climate & Machine Learning Boulder (CLIMB)](https://www.colorado.edu/faculty/claire-monteleoni/research/climate-machine-learning-boulder-climb) at CU.
+I pursued my undergraduate studies in Math and Computing from Indian Institute of Technology (IIT) Kharagpur. This summer, I did
+an internship at Microsoft research in their [AI for Good lab](https://www.microsoft.com/en-us/research/group/ai-for-good-research-lab/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am broadly interested in the intersection of computer vision and machine learning with my research 
+focused on their applications related to climate change impacts and sustainability. 
+My long term goal is to build innovative and efficient solutions for multiple aspects of sustainable development. 
+Through my research, I have made contributions to real world applications such as detecting extreme events with the help of satellite imagery, providing
+probabilistic forecasts of renewable energy at longer lead-times, and currently, I am developing a ML pipeline to predict the
+future trends of sea level change.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I love to cook, watch tennis and bike and I am enjoying my time in Boulder!

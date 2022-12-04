@@ -6,7 +6,7 @@ layout: default
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+           {% if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
@@ -17,14 +17,14 @@ layout: default
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-              {% if page.profile.image_circular %}
+              {% if page.profile.image_cicular %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
               {% else %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
               {% endif %}
 
-              {% include figure.html 
-              path=profile_image_path 
+              {% include figure.html
+              path=profile_image_path
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
@@ -58,7 +58,7 @@ layout: default
             <div class="contact-note">
               {{ site.contact_note }}
             </div>
-            
+
           </div>
           {%- endif %}
         </article>

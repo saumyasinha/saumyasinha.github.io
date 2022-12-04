@@ -1,12 +1,26 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+#description: Materials for courses you taught. Replace this text with your description.
 nav: true
-nav_order: 5
+#nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Guest Lecturer
+**CSCI 4622 Machine Learning**
 
-Organize your courses by years, topics, or universities, however you like!
+**ASEN5307 Engineering Data Analysis**
+
+**CSCI 4802/5802 Data Science Team**
+
+**CSCI 7000 Advanced Topics in Machine Learning**
+
+---
+
+## Teaching Assistant
+**CSCI 5622 Machine learning**
+
+**CSCI 2270 Data Structures** - `Received the outstanding TA award for the year 2018-2019`
+
+---

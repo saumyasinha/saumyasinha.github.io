@@ -1,83 +1,126 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@inproceedings{sinha2022agu,
+  abbr={AGU},
+  title={Sea-Level Projections via Spatiotemporal Deep Learning from Altimetry and CESM Large Ensembles},
+  author={Sinha, Saumya and Monteleoni, Claire and Fasullo,John and Nerem, R Steven},
+  booktitle={AGU Fall Meeting 2022},
+  abstract={Global mean sea level is rising at a rate unprecedented in the historical era as indicated by
+satellite altimetry retrievals since 1993. Recent studies have shown that the forced responses of
+greenhouse gas and aerosols have begun to emerge in the pattern of rise during the altimeter data
+and many features can be tied directly to these influences. Our work investigates future patterns
+of sea level change. To do this, we use machine learning (ML) applied to climate model outputs to
+understand the extent of causal contributions from different factors including greenhouse gases,
+industrial aerosols, and biomass burning aerosols. We apply deep learning-based spatio-temporal
+forecasting techniques to climate model simulations to learn a model of the underlying complex
+climate patterns responsible for the observed sea level rise. The ultimate goal is to exploit the
+learned patterns and the observed altimeter data to generate projections of sea level rise 30 years
+into the future. Specifically, we train a UNet model which is a fully convolutional neural network
+with an encoder and decoder architecture defining a U-shape. We add dilations in the convolution
+filters to increase the model’s receptive field and capture long-term spatial dependencies. This
+model takes in sea level maps at 2 degrees of spatial resolution and monthly temporal resolution
+and outputs a projection 30 years ahead at the same spatial resolution. These maps are
+converted from sea surface height to linear trend estimates (in mm/year) calculated over 30
+years, to reduce monthly variability. Input trend maps are for years from 1930 to 2040; we keep 20
+years for validation and 10 for the test set. A weighted mean squared error (MSE) is used as a loss
+function, where the weights are derived from the cosine of the latitude of all the spatial points. By
+training our ML model with the CESM1 and CESM2 large ensemble experiments, we show an
+RMSE of ~0.11mm/year for the predicted sea level trend on the test data. We also demonstrate
+improvements against a persistence model as a baseline. The next steps are to include more
+climate models and to adapt the ML model that learned complex spatiotemporal features in
+climate model data to the observed altimetry data, in order to produce future projections.},
+  year={2022}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{sinha2022weekahead,
+  abbr={CI},
+  title={Week-ahead Solar Irradiance Forecasting with Deep Sequence Learning},
+  author={Sinha, Saumya and Hodge, Bri-Mathias  and Monteleoni, Claire},
+  booktitle={Proceedings of the 11th International Conference on Climate Informatics (Environmental
+Data Science journal)},
+  year={2022},
+  PDF={https://github.com/saumyasinha/al-folio/blob/master/assets/pdf/EDS_paper.pdf},
+  bibtex_show={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  selected={true}
+@inproceedings{sinha2021subseasonal,
+abbr={Neurips CCAI},
+  title={Subseasonal Solar Power Forecasting via Deep Sequence Learning},
+  author={Sinha, Saumya and Hodge, Bri-Mathias  S and Monteleoni, Claire},
+  booktitle={NeurIPS 2021 Workshop on Tackling Climate Change with Machine Learning},
+  url={https://www.climatechange.ai/papers/neurips2021/23},
+  html = {https://www.climatechange.ai/papers/neurips2021/23},
+  year={2021},
+  bibtex_show={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@INPROCEEDINGS{2020EGUGA..22.9487G,
+   abbr={EGU},
+       author = {{Giffard-Roisin}, Sophie and {Sinha}, Saumya and {Karbou}, Fatima and {Deschatres}, Michael and {Karas}, Anna and {Eckert}, Nicolas and {Col{\'e}ou}, C{\'e}cile and {Monteleoni}, Claire},
+        title = "{Detecting avalanche debris from SAR imaging: a comparison of convolutional neural networks and variational autoencoders}",
+    booktitle = {EGU General Assembly Conference Abstracts},
+         year = 2020,
+       series = {EGU General Assembly Conference Abstracts},
+        month = may,
+          eid = {9487},
+        pages = {9487},
+          doi = {10.5194/egusphere-egu2020-9487},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020EGUGA..22.9487G},
+       html = {https://ui.adsabs.harvard.edu/abs/2020EGUGA..22.9487G},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+      bibtex_show={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{10.1145/3429309.3429326,
+abbr={CI},
+author = {Sinha, Saumya and Giffard-Roisin, Sophie and Karbou, Fatima and Deschatres, Michael and Karas, Anna and Eckert, Nicolas and Col\'{e}ou, C\'{e}cile and Monteleoni, Claire},
+title = {Variational Autoencoder Anomaly-Detection of Avalanche Deposits in Satellite SAR Imagery},
+year = {2021},
+isbn = {9781450388481},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3429309.3429326},
+doi = {10.1145/3429309.3429326},
+booktitle = {Proceedings of the 10th International Conference on Climate Informatics},
+pages = {113–119},
+numpages = {7},
+keywords = {anomaly detection, avalanche detection, satellite imaging, unsupervised deep learning, variational autoencoder},
+location = {virtual, United Kingdom},
+series = {CI2020},
+ PDF = {https://dl.acm.org/doi/pdf/10.1145/3429309.3429326},
+  bibtex_show={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+@inproceedings{sinha:hal-02318407,
+ abbr={Neurips CCAI},
+  TITLE = {{Detecting Avalanche Deposits using Variational Autoencoder on Sentinel-1 Satellite Imagery}},
+  AUTHOR = {Sinha, Saumya and Giffard-Roisin, Sophie and Karbou, Fatima and Desch{\^a}tres, Micha{\"e}l and Karas, Anna and Eckert, Nicolas and Monteleoni, Claire},
+  URL = {https://hal.archives-ouvertes.fr/hal-02318407},
+  BOOKTITLE = {{NeurIPS 2019 Workshop : Tackling Climate Change with Machine Learning NeurIPS workshop}},
+  ADDRESS = {Vancouver, Canada},
+  YEAR = {2019},
+  MONTH = Dec,
+  PDF = {https://hal.archives-ouvertes.fr/hal-02318407/file/NeuripsWorkshop_AvalancheDetection.pdf},
+  HAL_ID = {hal-02318407},
+  HAL_VERSION = {v1},
+  bibtex_show={true}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+
+@inproceedings{sinha:hal-02278230,
+abbr={CI},
+  TITLE = {{Can Avalanche Deposits be Effectively Detected by Deep Learning on Sentinel-1 Satellite SAR Images?}},
+  AUTHOR = {Sinha, Saumya and Giffard-Roisin, Sophie and Karbou, Fatima and Desch{\^a}tres, Micha{\"e}l and Karas, Anna and Eckert, Nicolas and Col{\'e}ou, C{\'e}cile and Monteleoni, Claire},
+  URL = {https://hal.archives-ouvertes.fr/hal-02278230},
+  BOOKTITLE = {{Climate Informatics}},
+  ADDRESS = {Paris, France},
+  YEAR = {2019},
+  MONTH = Oct,
+  PDF = {https://hal.archives-ouvertes.fr/hal-02278230/file/Avalanche_Detection_CIWorkshop_final_proceedings.pdf},
+  HAL_ID = {hal-02278230},
+  HAL_VERSION = {v1},
+  bibtex_show={true}
 }

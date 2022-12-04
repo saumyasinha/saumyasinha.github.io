@@ -1,8 +1,9 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
-title: cv
+title: CV
 nav: true
-nav_order: 4
-cv_pdf: example_pdf.pdf
 ---
+
+Last Updated: Nov 2022
+<iframe src="/al-folio/assets/pdf/resume_Fall2022.pdf#toolbar=0" width="100%" height="1000px"> </iframe>
