@@ -6,4 +6,4 @@ nav: true
 ---
 
 Last Updated: Nov 2022
-<iframe src="/al-folio/assets/pdf/resume_Fall2022.pdf#toolbar=0" width="100%" height="1000px"> </iframe>
+<iframe src="/saumyasinha.github.io/assets/pdf/resume_Fall2022.pdf#toolbar=0" width="100%" height="1000px"> </iframe>
