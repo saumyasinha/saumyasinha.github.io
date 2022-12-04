@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="330c1393-f4d3-4830-93e3-1f29fdf453cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/_pages/cv.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/cv.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pdf/resume_Fall2022.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pdf/resume_Fall2022.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="136">
-                <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+                <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
               </first_editor>
               <second_editor />
             </state>
@@ -241,12 +242,12 @@
       <option name="presentableId" value="Default" />
       <updated>1669762403745</updated>
       <workItem from="1669762406030" duration="14036000" />
-      <workItem from="1670187240334" duration="944000" />
+      <workItem from="1670187240334" duration="1430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14980000" />
+    <option name="totallyTimeSpent" value="15466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1680" height="968" extended-state="0" />
@@ -475,7 +476,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="136">
-            <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           </first_editor>
           <second_editor />
         </state>
