@@ -21,3 +21,8 @@ group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
 end
+
+# Fix for Ruby 2.6 compatibility
+gem 'ffi', '< 1.17'
+gem 'ostruct'
+
