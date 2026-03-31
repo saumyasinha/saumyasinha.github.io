@@ -48,4 +48,4 @@ I believe education has the power to shape a person, and in doing so, shape the 
 
 - **Generative AI panelist** in [IEA Wind Task 43 Annual General Meeting 2025](https://iea-wind.org/2025/06/30/task43-agm2025-report/).
 - **Invited talk** at [AI for Climate Science Bridge Program](https://ai4climatescience.github.io/), AAAI 2023.
-- **Outreach**: Volunteered at Super Science Saturday (K-12 event), demonstrating electricity generation.
+- **Outreach**: Served as a State Judge for the Presidential AI Challenge; Volunteered at Super Science Saturday (K-12 event), demonstrating electricity generation.
